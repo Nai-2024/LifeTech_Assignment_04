@@ -6,7 +6,9 @@
 }
 
 section {
- 
+  display: grid;
+  justify-content: center;
+  align-items: center;
   background: #042104;
   min-height: 100vh;
   animation: animateBkg 10s linear infinite;
@@ -44,7 +46,7 @@ section {
   left: 0;
   height: 15px;
   width: 15px;
-  background: #000;
+  background: #00ff0a;
   border-radius: 50%;
   box-shadow: 0 0 10px #00ff0a,
     0 0 10px #00ff0a,
